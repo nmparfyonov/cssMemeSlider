@@ -7,11 +7,12 @@ body {
     align-items: center;
     gap: 1vh;
     height: 100vh;
+    max-width: 100%;
     background-color: #f0f0f0;
 }
 
-.radio-changer {
-    display: flex;
+input[type='radio']:hover {
+    cursor: pointer;
 }
 
 .slider {
